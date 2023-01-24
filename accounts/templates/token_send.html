@@ -1,0 +1,22 @@
+{% extends "base.html"%}
+
+    {% block content %}
+
+
+    
+    <div class="global-container">
+        <div class="card login-form">
+        <div class="card-body">
+            <h3 class="card-title text-center">We have sent an email to you </h3>
+            <div class="card-text text-center">
+                Please check your mail
+                <div class="sign-up mt-2">
+                     <a href="{% url 'login_attempt'%}" style="color:rgba(0, 128, 0, 3)">Log In</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    {% endblock %}
